@@ -1,0 +1,17 @@
+{
+    "name": "jimmdigrizli/ThirdPartyData",
+    "authors": [
+        {
+            "name": "Alexander Getmansky",
+            "email": "alexander.get87@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.1.*",
+        "cache/void-adapter": "^1.0",
+        "guzzlehttp/psr7": "^1.4"
+    },
+    "autoload": {
+      "psr-4": {"ThirdPartyData\\": "src/"}
+    }
+}
